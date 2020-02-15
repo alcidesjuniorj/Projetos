@@ -50,7 +50,7 @@ namespace Exercicio_Aula_60
             valorDeposito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             cb.Saque(valorDeposito);
 
-            Console.WriteLine("\n\nDados da conta atualizados:");
+            Console.WriteLine("\n\nDados atualizados:");
             Console.WriteLine(cb.ToString());
 
             Console.Read();
